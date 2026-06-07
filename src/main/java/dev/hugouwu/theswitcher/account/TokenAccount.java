@@ -10,7 +10,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class TokenAccount implements Account {
     private String name;
-    private String accessToken;
+    private final String accessToken;
     private UUID uuid;
 
     public TokenAccount(@NotNull String accessToken) throws Exception {

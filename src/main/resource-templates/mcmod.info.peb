@@ -1,0 +1,17 @@
+[
+  {
+    "modid": "theswitcher",
+    "name": "TheSwitcher",
+    "description": "",
+    "version": "{{ version }}",
+    "mcversion": "1.8.9",
+    "updateUrl": "",
+    "authorList": [
+      "HugoQwQ"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "package": "dev.hugouwu.theswitcher.platform.mixin",
+  "refmap": "mixins.switcher.refmap.json",
+  "minVersion": "0.7",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "MinecraftAccessor"
+  ]
+}

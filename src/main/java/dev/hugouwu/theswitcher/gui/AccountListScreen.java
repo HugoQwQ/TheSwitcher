@@ -236,12 +236,7 @@ public class AccountListScreen extends GuiScreen {
 		if (list.selectedElement() < 0 || state != null)
 			return;
 		Account acc = list.entries.get(list.selectedElement()).account();
-		mc.displayGuiScreen(new LoginScreen(this, I18n.format("ias.loginGui.edit"),
-				I18n.format("ias.loginGui.edit.button"),
-				I18n.format("ias.loginGui.edit.button.tooltip"), newAcc -> {
-					Config.accounts.set(Config.accounts.indexOf(acc), newAcc);
-					Config.save(mc.mcDataDir.toPath());
-				}));
+		mc.displayGuiScreen(new EditorScreen(this, acc));
 	}
 
 	public void delete() {
